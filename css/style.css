@@ -1,0 +1,23 @@
+.bigTitle {
+  font-size: 5rem;
+  /* color: rgb(255, 255, 0); */
+  font-family: cursive;
+}
+
+.margin50 {
+  margin: 50px;
+}
+
+h1.slide {
+  transition: height 0.5s ease-in-out;
+  height: 0;
+  overflow: hidden;
+}
+
+.fade {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.fade.show {
+  opacity: 1;
+}
